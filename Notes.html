@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Write to your heart's content! :) </h1>
+Notes:<br>
+<textarea id="mytextarea">
+</textarea>
+
+<p> Click enter once finsihed. </p>
+<button type= "button" onclick="myFunction()">Enter
+</button>
+<p id="demo"></p>
+
+<script>
+	function myFunction(){
+		var x =
+		document.getElementById("mytextarea").value;
+		document.getElementById("demo").innerHTML = x;
+	}
+</script>
+</body>
+</html>
